@@ -1,0 +1,43 @@
+{
+    "name": "marionnewlevant/element-link",
+    "description": "Add a link to the CP edit page for Entries, Categories, and other Elements",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "element link"
+    ],
+    "support": {
+        "docs": "https://github.com/craft-element_link/element-link/blob/master/README.md",
+        "issues": "https://github.com/craft-element_link/element-link/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marion Newlevant",
+            "homepage": "http://marion.newlevant.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "marionnewlevant\\elementlink\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Element Link",
+        "handle": "element-link",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/craft-element_link/element-link/master/CHANGELOG.md",
+        "components": {
+            "elementLinkService": "marionnewlevant\\elementlink\\services\\ElementLinkService"
+        },
+        "class": "marionnewlevant\\elementlink\\ElementLink"
+    }
+}

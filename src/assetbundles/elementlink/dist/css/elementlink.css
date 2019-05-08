@@ -1,0 +1,66 @@
+/*
+positioning with css. The .linked class is from download assets plugin.
+*/
+/* styles to make space on the label */
+body.ltr .element.elementLinkYes .label {
+  padding-right: 20px;
+}
+body.ltr .element.elementLinkYes.linked .label {
+  padding-right: 40px;
+}
+
+body.ltr .element.removable.elementLinkYes .label {
+  padding-right: 40px;
+}
+body.ltr .element.removable.elementLinkYes.linked .label {
+  padding-right: 60px;
+}
+
+body.rtl .element.elementLinkYes .label {
+  padding-left: 20px;
+}
+body.rtl .element.elementLinkYes.linked .label {
+  padding-left: 40px;
+}
+
+body.rtl .element.removable.elementLinkYes .label {
+  padding-left: 40px;
+}
+body.rtl .element.removable.elementLinkYes.linked .label {
+  padding-left: : 60px;
+}
+
+/* anchor styles */
+body.ltr .element .elementLink {
+  position: absolute;
+  right: 22px;
+}
+
+body.ltr .element.linked .elementLink {
+  right: 42px;
+}
+
+body.rtl .element .elementLink {
+  position: absolute;
+  left: 22px;
+}
+
+body.rtl .element.linked .elementLink {
+  left: 42px;
+}
+
+.element .elementLink::before {
+  content: '';
+  display: inline-block;
+  width: 19px;
+  height: 14px;
+  background-image: url('../img/elementLink.svg');
+  background-size: 19px 14px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.element .elementLink:hover::before {
+  background-image: url('../img/elementLink-focus.svg');
+}
+
