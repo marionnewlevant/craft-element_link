@@ -11,8 +11,8 @@
         "element link"
     ],
     "support": {
-        "docs": "https://github.com/craft-element_link/element-link/blob/master/README.md",
-        "issues": "https://github.com/craft-element_link/element-link/issues"
+        "docs": "https://github.com/marionnewlevant/craft-element_link/blob/master/README.md",
+        "issues": "https://github.com/marionnewlevant/craft-element_link/issues"
     },
     "license": "MIT",
     "authors": [
@@ -34,7 +34,7 @@
         "handle": "element-link",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/craft-element_link/element-link/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/marionnewlevant/craft-element_link/master/CHANGELOG.md",
         "components": {
             "elementLinkService": "marionnewlevant\\elementlink\\services\\ElementLinkService"
         },
