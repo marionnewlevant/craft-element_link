@@ -1,6 +1,6 @@
 <?php
 
-namespace marionnewlevant\elementlink\assetbundles\ElementLink;
+namespace marionnewlevant\elementlink\assetbundles\elementlink;
 
 use Craft;
 use craft\web\AssetBundle;
