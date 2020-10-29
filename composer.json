@@ -2,7 +2,7 @@
     "name": "marionnewlevant/element-link",
     "description": "Add a link to the CP edit page for Entries, Categories, and other Elements",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
