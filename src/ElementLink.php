@@ -10,7 +10,7 @@
 
 namespace marionnewlevant\elementlink;
 
-use marionnewlevant\elementlink\assetbundles\elementlink\ElementLinkAsset;
+use marionnewlevant\elementlink\assetbundles\ElementLink\ElementLinkAsset;
 
 use Craft;
 use craft\base\Plugin;
